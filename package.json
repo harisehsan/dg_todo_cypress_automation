@@ -1,0 +1,17 @@
+{
+  "name": "dg-todolist",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "method-override": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "fbrose@dataguard.de",
+  "description": "TODO list challenge",
+  "devDependencies": {
+  }
+}
