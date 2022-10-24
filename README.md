@@ -62,3 +62,28 @@ Users should be able to:
 
 ### Summarise your solution here
 
+### Execution Guide
+
+To execute the testcases using cypress, use the following commands:
+
+1) git clone -b Testing https://github.com/harisehsan/dg_todo_task.git
+
+2) cd <Directory where project cloned>/dg_todo_task
+
+3) sudo docker-compose up --build -d
+
+4) cd TestAutomation
+
+5) npx cypress run --spec ./cypress/e2e/Tests.cy.js --headed  --reporter mochawesome
+
+The testcases are written in the 'Tests.cy.js' file in the directory TestAutomation\cypress\e2e\Tests.cy.js
+
+In order to view reports goto the directory TestAutomation/mochawesome-report
+
+For video, TestAutomation\cypress\videos
+
+### Testcases Summary
+
+I have developed The High level specifications tests like adding todos and verifying, modifying todos and verifying and removing all todos and verifying.
+
+In the Bonus section I have developed configuring the test reports for displaying the test coverage and performing one xss vulnerability test.
