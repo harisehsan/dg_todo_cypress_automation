@@ -66,7 +66,7 @@ Users should be able to:
 
 To execute the testcases using cypress, use the following commands:
 
-1) git clone -b Testing https://github.com/harisehsan/dg_todo_task.git (it is private repo. After cloning, Please let me know I will remove that project from my repo)
+1) git clone -b Testing https://github.com/harisehsan/dg_todo_task.git (After cloning, Please let me know I will remove that project from my repo)
 
 2) cd "Directory where project cloned" /dg_todo_task
 
